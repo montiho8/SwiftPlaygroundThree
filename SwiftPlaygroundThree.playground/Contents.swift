@@ -27,4 +27,14 @@ print(fruitNames[1])
 
 
 //Part 9
+var expensiveCars: [String]
+expensiveCars = ["Ferrari 250 GTO", "Ferrari 335 S Spider Scaglietti", "Bugatti Type 57SC Atlantic", "Alfa Romeo 8C 2900B Lungo Spider", "Rolls-Royce Phantom IV State Landaulette", "Aston Martin DP215", "Aston Martin DBR1", "1962 Shelby 260 Cobra CSX 2000"]
+
+for Item in expensiveCars{
+    print(Item + " is a very expensive car")
+}
+
+print(expensiveCars[0])
+
+
 
